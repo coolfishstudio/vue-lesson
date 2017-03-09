@@ -9,8 +9,8 @@ vue的学习
 - [v-model](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_01/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md#双向绑定-1)
 
 ##### 案例
-- [hello world](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_01/hello_world.html)
-- [v-model](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_01/v-model.html)
+- [hello_world.html](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_01/hello_world.html)
+- [v-model.html](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_01/v-model.html)
 
 #### 常用指令
 [笔记](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_02/%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4.md)
@@ -25,9 +25,9 @@ vue的学习
 - [按键修饰符](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_02/%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4.md#按键修饰符)
 
 ##### 案例
-- [v-if](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_02/v-if.html)
-- [v-show](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_02/v-show.html)
-- [v-else](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_02/v-else.html)
-- [v-for](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_02/v-for.html)
-- [v-bind](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_02/v-bind.html)
-- [v-on](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_02/v-on.html)
+- [v-if.html](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_02/v-if.html)
+- [v-show.html](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_02/v-show.html)
+- [v-else.html](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_02/v-else.html)
+- [v-for.html](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_02/v-for.html)
+- [v-bind.html](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_02/v-bind.html)
+- [v-on.html](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_02/v-on.html)
