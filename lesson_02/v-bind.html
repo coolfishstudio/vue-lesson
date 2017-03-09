@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>v-bind指令</title>
+        <script src="../vue.js"></script>
+        <style>
+            li {
+                list-style: none;
+                display: inline;
+            }
+            span {
+                color: #000;
+                list-style: none;
+                margin: 0 5px;
+                padding: 3px 6px;
+            }
+            span.active {
+                color: #f60;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- view -->
+        <div id="app">
+            <ul>
+                <li v-for="n in pageCount">
+                    <span v-bind:class="activeNumber === n ? 'active' : ''">{{ n }}</span>
+                </li>
+            </ul>
+        </div>
+    </body>
+    <script>
+        // Model
+        var exampleData = {
+            activeNumber: 4,
+            pageCount: 10
+        }
+        // 创建一个实例 ViewModel
+        var app = new Vue({
+            el: '#app',
+            data: exampleData
+        })
+    </script>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>v-for指令</title>
+        <script src="../vue.js"></script>
+    </head>
+    <body>
+        <!-- view -->
+        <div id="app">
+            <ul>
+                <li v-for="item in items">
+                    <span>{{ item.name }}</span>
+                    <span>今年</span>
+                    <span>{{ item.age }}</span>
+                    <span>岁</span>
+                </li>
+            </ul>
+        </div>
+    </body>
+    <script>
+        // Model
+        var exampleData = {
+            items: [{
+                name: 'aaa',
+                age: 20
+            }, {
+                name: 'bbb',
+                age: 21
+            }, {
+                name: 'ccc',
+                age: 22
+            }, {
+                name: 'ddd',
+                age: 21
+            }, {
+                name: 'eee',
+                age: 20
+            }]
+        }
+        // 创建一个实例 ViewModel
+        var app = new Vue({
+            el: '#app',
+            data: exampleData
+        })
+    </script>
+</html>

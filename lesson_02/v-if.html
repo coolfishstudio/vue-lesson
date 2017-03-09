@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>v-if指令</title>
+        <script src="../vue.js"></script>
+    </head>
+    <body>
+        <!-- view -->
+        <div id="app">
+            <p>{{ message }}</p>
+            <p v-if="yes">Yes</p>
+            <p v-if="no">No</p>
+            <p v-if="age >= 20">Age: {{ age }}</p>
+        </div>
+    </body>
+    <script>
+        // Model
+        var exampleData = {
+            message: 'Hello World',
+            yes: true,
+            no: false,
+            age: 21
+        }
+        // 创建一个实例 ViewModel
+        var app = new Vue({
+            el: '#app',
+            data: exampleData
+        })
+    </script>
+</html>

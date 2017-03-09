@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>v-else指令</title>
+        <script src="../vue.js"></script>
+    </head>
+    <body>
+        <!-- view -->
+        <div id="app">
+            <p v-if="age >= 20">Age: {{ age }} 大于20</p>
+            <p v-else-if="age >= 15">Age: {{ age }} 小于20 大于15</p>
+            <p v-else>Age: {{ age }} 小于15岁</p>
+        </div>
+    </body>
+    <script>
+        // Model
+        var exampleData = {
+            age: 21
+        }
+        // 创建一个实例 ViewModel
+        var app = new Vue({
+            el: '#app',
+            data: exampleData
+        })
+    </script>
+</html>
