@@ -34,3 +34,6 @@ vue的学习
 
 ### 生命周期与模版语法
 [笔记](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_03/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E4%B8%8E%E6%A8%A1%E7%89%88%E8%AF%AD%E6%B3%95.md)
+
+### VUE-NODE从开发到部署
+[笔记](https://github.com/coolfishstudio/vue-lesson/blob/master/VUE-NODE%E4%BB%8E%E5%BC%80%E5%8F%91%E5%88%B0%E9%83%A8%E7%BD%B2.md)
