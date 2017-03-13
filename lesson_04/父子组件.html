@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>父子组件</title>
+        <script src="../vue.js"></script>     
+    </head>
+    <body>
+        <!-- view -->
+        <div id="app">
+            <parent-component></parent-component>
+        </div>
+    </body>
+    <script>
+        // 创建一个子组件
+        var childComponent = Vue.extend({
+            template: '<div>我是子组件</div>'
+        })
+        // 创建一个父组件
+        var parentComponent = Vue.extend({
+            // 在这个父组件里使用子组件
+            template: '<div><div>我是父组件</div><child-component></child-component></div>',
+            components: {
+                // 局部注册子组件
+                'child-component': childComponent
+            }
+        })
+        // 全局注册父组件
+        Vue.component('parent-component', parentComponent)
+        // 创建一个实例 ViewModel
+        var app = new Vue({
+            el: '#app'
+        })
+    </script>
+</html>

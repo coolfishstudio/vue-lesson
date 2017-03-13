@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>局部注册</title>
+        <script src="../vue.js"></script>     
+    </head>
+    <body>
+        <!-- view -->
+        <div id="app">
+            <!-- 3. 第三步 使用这个组件 -->
+            <test-component></test-component>
+        </div>
+    </body>
+    <script>
+        // 1. 第一步 创建一个组件构造器
+        var testComponent = Vue.extend({
+            template: '<div>这是一个测试组件</div>'
+        })
+        /**
+         * 全局注册
+         * // 2. 第二步 注册这个组件
+         * Vue.component('test-component', testComponent)
+         */
+        // 创建一个实例 ViewModel
+        var app = new Vue({
+            el: '#app',
+            // 局部注册
+            components: {
+                // 2. 第二步 注册这个组件
+                'test-component': testComponent
+            }
+        })
+    </script>
+</html>
