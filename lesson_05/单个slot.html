@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>单个slot</title>
+        <script src="../vue.js"></script>     
+    </head>
+    <body>
+        <!-- view -->
+        <div id="app">
+            <my-component>
+                <h1>Hello</h1>
+            </my-component>
+            <div>-----------</div>
+            <my-component></my-component>
+        </div>
+        <template id="myComponent">
+            <div>
+                <h2>component</h2>
+                <slot>如果没有分发内容，则显示slot的内容</slot>
+            </div>
+        </template>
+    </body>
+    <script>
+        Vue.component('my-component', {
+            template: '#myComponent'
+        })
+        new Vue({
+            el: '#app'
+        })
+    </script>
+</html>
