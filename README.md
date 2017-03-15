@@ -42,3 +42,10 @@ vue的学习
 [笔记](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_04/%E7%BB%84%E4%BB%B6%E7%9A%84%E5%AD%A6%E4%B9%A0.md)
 - [单个slot](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_05/%E7%BB%84%E4%BB%B6%E7%9A%84%E9%80%9A%E4%BF%A1%E4%B8%8E%E8%AE%BF%E9%97%AE.md#单个slot)
 - [指定名称的slot](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_05/%E7%BB%84%E4%BB%B6%E7%9A%84%E9%80%9A%E4%BF%A1%E4%B8%8E%E8%AE%BF%E9%97%AE.md#指定名称的slot)
+- [父子组件之间的访问](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_05/%E7%BB%84%E4%BB%B6%E7%9A%84%E9%80%9A%E4%BF%A1%E4%B8%8E%E8%AE%BF%E9%97%AE.md#父子组件之间的访问)
+- [$children示例](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_05/%E7%BB%84%E4%BB%B6%E7%9A%84%E9%80%9A%E4%BF%A1%E4%B8%8E%E8%AE%BF%E9%97%AE.md#children示例)
+- [$refs示例](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_05/%E7%BB%84%E4%BB%B6%E7%9A%84%E9%80%9A%E4%BF%A1%E4%B8%8E%E8%AE%BF%E9%97%AE.md#refs示例)
+- [$parent示例](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_05/%E7%BB%84%E4%BB%B6%E7%9A%84%E9%80%9A%E4%BF%A1%E4%B8%8E%E8%AE%BF%E9%97%AE.md#parent示例)
+- [自定义事件](https://github.com/coolfishstudio/vue-lesson/blob/master/lesson_05/%E7%BB%84%E4%BB%B6%E7%9A%84%E9%80%9A%E4%BF%A1%E4%B8%8E%E8%AE%BF%E9%97%AE.md#自定义事件)
+
+
